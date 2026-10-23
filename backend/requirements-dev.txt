@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# --- Test tooling --------------------------------------------------------
+pytest==8.3.4
+pytest-cov==6.0.0
+# SQLite (stdlib `sqlite3`) is used as the local development / test database
+# fallback; MySQL 8 remains the production target.
